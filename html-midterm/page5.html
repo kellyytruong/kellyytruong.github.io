@@ -19,21 +19,56 @@
         <a href="/html-midterm/page5.html">Page 5</a>
         <span> | </span>
     </div>
-<h1>Page 1 Errors</h1>
 
-- There was no lang attribute to the html start tag so I had to declare the HTML language 
-- the header 2 was inside of the table, so I had to close out the <tr> tag by adding </tr> first
-then close out the <table> tag by adding </table> to make the header outside of the table
+<p>To preface, the original code uses a < symbol, but I cannot put the original code in here.
+I'm using <span style="color: red"> '(>code>)' </span> to help show the changes I made.</p>
+
+<h1>Page 1 Errors</h1>
+<ul>
+    <li> There was no lang attribute to the HTML start tag --> I declared the HTML 
+        language (html <span style="color: red">lang="en">)</span>
+    </li>
+    <li> Around line 41, h2 is nested in the table --> 
+        <ul class="circle">
+        <li> I closed the (>tr>) tag by adding <span style="color: red"> (>/tr>) </span> first. </li>
+        <li> Then, I closed the table by adding <span style="color: red"> (>/table>) </span> to make h2 outside of the table. </li>
+        </ul>
+    </li>
+    <li>On line 24, there is a missing closing tag --> added <span style="color: red"> (>/li>) </span> </li> 
+    <li>On line 36, there is a missing closing tag --> added <span style="color: red"> (>/td>) </span></li>  
+</ul> 
+    
 
 <h1>Page 2 Errors</h1>
+<ul> 
+    <li>There is a mistyped tag (< >) in the middle of the paragraph --> I deleted it</li>
+    <li>On line 31, there is a closing (>/p>) tag, but it needs to be pushed back and in line with the corresponding start tag</li>
+    <li>In paragraph 27, there is an unclosed (>b>) tag --> so I added a closing <span style="color: red">(>/b>)</span> tag at the end of the paragraph</li>
+    <li>On line 53, the element (>h2>) is a child element that is nested within the (>b>) tag --> need to move <span style="color: red">(>h2>) </span> tag 
+        to be on the outer end.</li>
+    <li>On line 57, "where do i go" is not an actual link to anything --> I changed it to a link to a Wikipedia page on Segmental arches. </li>
+    <li>On line 76, the (>h6>) tag is still open --> added a closing tag <span style="color: red">(>/h6>)</span> to the end.
+</ul>
 
 <h1>Page 3 Errors</h1>
-The document is not set up in the format of a HTML doc type so we should add a language to html,
-title and meta,  
-- changed title to Mid-term Page 3
+<ul>
+    <li>The document is not set up in the format of a HTML doc type and is missing a title, meta, and link to css stylesheet: -->
+        <ul class="cirlce"> 
+        <li> Added a title: <span style="color: red">(>title>Mid-term Page 3>/title>)</span></li>
+        <li>Added the default meta </li>
+        <li>Added a link to the css stylesheet <span style="color: red">(cars.css)</span></li>
+        </ul>
+    </li>    
+</ul>
 
 <h1>Page 4 Errors</h1>
-- There is no starting doc type, so we add <!Doctype html>
-
+<ul>
+    <li>There is no starting doc type --> added <span style="color: red">(>!DOCTYPE html>)</span></li>
+    <li>With all of the images on the page, there is no alt text to describe the image
+        if the image cannot be displayed --> I've added a short description of what each
+        image is using <span style="color: red">(alt = "...")</span></li>
+    <li>On line 43, it is missing a start tag and end tag --> added <span style="color: red">(>td> and >/td>)</span></li>
+    <li>On line 48, it is missing the start tag --> added <span style="color: red">(>td>)</span></li>
+</ul>
 </body>
 </html>
