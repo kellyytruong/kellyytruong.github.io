@@ -20,5 +20,5 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background-position: center;
+    transform: translate(400px, -50px);
 }
