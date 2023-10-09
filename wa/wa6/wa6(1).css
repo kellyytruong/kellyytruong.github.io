@@ -1,0 +1,22 @@
+body {
+    width: 99vw;
+    height: 99vh;
+    background-image: url("nba.jpeg");
+    height: 99%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width: 50%;
+    height: 50%;
+}
+
+.box2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-position: center;
+}
