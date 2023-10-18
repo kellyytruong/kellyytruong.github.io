@@ -1,0 +1,88 @@
+body{
+    background-color: khaki;
+}
+#box1{
+    width: 25vw;
+    height: 20vh;
+    background-color: indianred;
+}
+
+#box1:hover {
+    background-color: purple; 
+}
+
+
+#box2{
+    width: 25vw;
+    height:20vh;
+    position: relative;
+    background-color: orangered;
+    animation-duration: 2s;
+    animation-name: box2move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes box2move{
+    from {
+        margin-left: 100%;
+        width: 150%;
+        margin-top: 100%;
+        margin-right: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-right: 0%;
+    }
+
+}
+
+
+/* animation syntax: 
+animation: 3s infinite alternate [name];
+
+@keyframes [name] {
+    from { -- 0 seconds
+        [changes] 
+    }
+    to {
+        [changes]
+    {
+
+.box [name] 
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; --> makes the box go back and forth
+    animation-timing-function: 
+
+ex: to make the box bounce from left to right 
+    
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+        50% {
+            color: red;
+        }
+        to {
+            margin-left: 0%;
+        }
+
+
+#hover {
+    font-size: 5vw;
+    transition-property: font-size;
+    transition-duration: 3s;
+    transition-delay: 0.25s; 
+}
+
+hover syntax: 
+
+#box1:hover {
+    background-color: purple; 
+}  
