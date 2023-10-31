@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button">Player 1: Chris</button>
+    <button id="press" type="button">Press Me</button>
+
+
+
+
+<!--java script-->
+    <!--put java script at the very bottom of the body--> 
+    <script>
+        // variables defined using 'const' or 'let'
+        const button = document.querySelector("button");
+        // querySelector only grabs the first thing of the button element
+        const press = document.getElementById("press");
+
+        button.addEventListener('click', updateName);
+        // look for a click, and when clicked run this function
+        press.addEventListener('click', updateName);
+
+        function updateName() {
+            //let name = prompt("Enter a new name");
+            let name = 10
+            console.log("The function ran correctly")
+            console.log(name);
+            //button.textContent = `Player 1: ${name}`;
+            // ${} put the variable in there
+
+            press.innerHTML = `<h1>Hello</h1>`
+
+            //const button = document.querySelector("button");
+            //button.addEventListener(`click`, updateName);
+
+            //function updateName() {
+            //let name = prompt("Enter a new name");
+        }
+
+
+    </script>
+</body>
+</html>
