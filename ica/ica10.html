@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICA 10</title>
+    <title>ICA10</title>
 </head>
 
 <body>
     
     <button id="myButton">Try it</button>
-    <button id="button2">Click Here!</button>
-
+    <button id="myButton2">Click Here!</button>
 
     <p id="demo1"></p>
     <p id="demo2"></p>
@@ -33,14 +32,12 @@
         document.getElementById("demo1").innerHTML += "Moused out!<br>";
     }
 
-
-        document.getElementById("button2").addEventListener("click", displayDate);
+        document.getElementById("myButton2").addEventListener("click", displayDate);
     
         function displayDate() {
         document.getElementById("demo2").innerHTML = Date();
     }
     </script>
-    
 </body>
 </html>
 
