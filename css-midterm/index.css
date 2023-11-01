@@ -78,7 +78,7 @@ body {
 }
 
 .button:hover {
-    border: 1 px solid #009688;
+    border: 1px solid #009688;
     background: #009688;
     transition: 1s;
 }
@@ -88,10 +88,10 @@ body {
     .content h1{
         font-size: 20px;
     }
-    .nav-bar ul li{
+    .navbar ul li{
         display: block;
     }
-    .nav-bar{
+    .navbar{
         position: absolute;
         background: #009688;
         height: 80vh;
@@ -108,10 +108,10 @@ body {
     .sub-head{
         font-size: 20px;
     }
-    .nav-bar ul li{
+    .navbar ul li{
         display: block;
     }
-    .nav-bar{
+    .navbar{
         position: absolute;
         background: #009688;
         height: 80vh;
