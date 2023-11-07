@@ -16,10 +16,6 @@ body {
     height: 100vh;
   }
 
-.customname {
-  text-color: white;
-  }
-
 .randomize {
   display: inline-block;
   text-decoration: none;
