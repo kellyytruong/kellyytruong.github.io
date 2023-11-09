@@ -5,7 +5,7 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
-const imgArray = ['/wa/wa11/images/car.JPG','/wa/wa11/images/sister.jpg','/wa/wa11/images/ferris-wheel.jpg','/wa/wa11/images/skydive.jpg','/wa/wa11/images/sunset.jpg'];
+const imgArray = ['/wa/wa11/images/car.JPG','/wa/wa11/images/sister.JPG','/wa/wa11/images/ferris-wheel.JPG','/wa/wa11/images/skydive.jpg','/wa/wa11/images/sunset.jpg'];
 
 /* Declaring the alternative text for each image file */
 const altText = ['car','sister','ferris-wheel','skydive','sunset'];
