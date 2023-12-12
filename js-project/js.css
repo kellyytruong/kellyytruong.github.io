@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#phoneNumber {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.ball {
+    position: absolute;
+    width: 50px; /* Larger balls */
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    animation: bounce 1s linear infinite; 
+}
+
+@keyframes bounce {
+    0%, 100% {
+        top: 90%;
+    }
+    50% {
+        top: 10%;
+    }
+}
