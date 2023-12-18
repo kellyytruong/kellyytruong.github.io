@@ -22,7 +22,7 @@
   }
   
   h2 {
-    color: #ffa100;
+    color: rgb(210, 65, 210);
     font-size: 24px;
     margin-bottom: 30px; 
     text-align: center; 
@@ -72,7 +72,7 @@
   .hole {
     width: 90px;
     height: 90px;
-    border: 4px solid #ffa100;
+    border: 4px solid rgb(210, 65, 210);
     border-radius: 45px;
     margin: 15px;
     transition: background 0.1s, transform 0.1s;
@@ -82,6 +82,6 @@
   
   .hole:hover, .hole:focus {
     transform: scale(1.1);
-    background: rgba(255, 165, 0, 0.2);
+    background: rgb(210, 65, 210);
   }
   
